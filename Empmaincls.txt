@@ -1,0 +1,27 @@
+class Employee
+{
+String nm, add;
+int y;
+void Getdata(String s,int y, String a)
+{
+nm=s;
+y=y1;
+ad=a;
+}
+void Showdata()
+{
+System.out.println(nm+" \t " +y+ " \t " +ad);
+}
+}
+public class Empmaincls
+{
+public static void main(String args[])
+{
+Employee e1=new Employee();
+System.out.println("Name \t  year of Joining \t Address");
+e1.Getdata("Robert",1994, "64-C Wallstreet");
+e1.Getdata("Sam",2000, "68-D Wallstreet");
+e1.Getdata("John",1999, "26-B Wallstreet");
+e1.Showdata();
+}
+}

@@ -1,0 +1,26 @@
+// method 
+class methodsclass
+{
+	void show1()
+	{
+		System.out.println("This is Show1 !!");
+	}
+	vodi show2()
+	{
+		System.out.println("This is Show2 !!");
+	}
+	static void show3()
+	{
+		System.out.println("This is Show3 !!");
+	}
+	}
+public class main class method 
+	{
+		public static void main(String args[])
+	{
+		methodsclass m1= new methodsclass();
+		m1.show1();
+		m1.show2();
+		m1.show3();
+	}
+}
