@@ -1,0 +1,22 @@
+// Constructor Example1- default
+calss student
+{
+int r;
+String nm;
+public student()
+{
+r= 10;
+nm= "Sachin";
+}
+public void show()
+{
+System.out.println("Student Roll no:" +r);
+System.out.println("Student Name:" +nm);
+}
+}
+class Constructstudent
+{
+public Stastic void main (String args[])
+{student  s1= new student();
+s1.show();
+}}

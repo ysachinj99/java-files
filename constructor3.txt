@@ -1,0 +1,45 @@
+// constructor example3- Employee Details
+class Employee
+{
+int emp_id;
+String name,ql;
+double sal
+public Employee()
+{
+System.out.println("Employee's details are as Follows : \n\n ");
+emp_id=01;
+name="Sachin";
+ql="Bsc - CS";
+}
+public Employee(int id)
+{
+System.out.println(id+"is not working anymore ");
+}
+public Employee(int id,String nm,String ql, double sal)
+{
+emp_id=id;
+name=nm;
+ql=q;
+sal=s;
+}
+public void show()
+{
+System.out.println("Employee id : " +id);
+System.out.println("Employee Name   : " +nm);
+System.out.println("Qualification are  : " +q);
+System.out.println("Salary is  : " +s);
+}
+}
+class constructor3
+{
+public static void main(String args[])
+{
+Employee s1=new Employee();
+Employee s2=new Employee(102);
+Employee s3=new Employee(103,"Avinash","BSc -IT",34565);
+Employee s4=new Employee(104,"Vaibhav","B-tech",35000);
+s1.show();
+s2.show();
+s3.show();
+s4.show();
+}}

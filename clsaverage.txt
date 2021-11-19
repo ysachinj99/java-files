@@ -1,0 +1,21 @@
+class Average
+{
+int n;
+void Getdata(int a,int b,int c)
+{
+n=a+b+c/3;
+}
+void Showdata()
+{
+System.out.println("Average of no. :" +n);
+}
+}
+public class clsaverage 
+{
+public static void main(String args[])
+{
+Average n1=new Average();
+n1.Getdata(6,2,7);
+n1.Showdata();
+}
+}
