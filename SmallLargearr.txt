@@ -1,0 +1,19 @@
+public class SmallLargearr
+{
+public static void main(String args[])
+{
+int a[]= new int [5];
+int i,j,s=1,l=0;
+s=a[0]
+for(i=0;i<5;i++)
+{
+a[i]= Integer.parseInt(args[i]);
+If (a[i]< s)
+{
+s=a[i];
+}
+}
+System.out.println("Sum of Array is:" +s);
+System.out.println("Product of Array is:" +p);
+}
+}

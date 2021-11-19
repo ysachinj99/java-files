@@ -1,0 +1,19 @@
+public class pystar {
+
+  public static void main(String[] args) {
+    int i,j,c;
+
+    for (i = 1; i <= 6; ++i) 
+     {
+      for (c = 1; c <= 6; ++j) 
+       {
+        System.out.print(" ");
+      }
+      for (j = 1; j <= i+1; j++)
+       {
+        System.out.println(" * ");
+    }
+        System.out.println("  ");
+  }
+}
+}
